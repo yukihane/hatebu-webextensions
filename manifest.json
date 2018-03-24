@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "chillout-page-action",
-  "version": "1.0.2",
-  "description": "Show a page action after a period of inactivity. Show cat gifs when the page action is clicked.",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/chill-out",
+  "name": "hatebu",
+  "version": "0.0.3",
+  "description": "Hatena bookmark opener for Android Firefox",
+  "homepage_url": "https://github.com/yukihane/hatebu-webextensions",
   "icons": {
     "48": "icons/chillout-48.png"
   },
