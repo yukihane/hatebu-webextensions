@@ -79,9 +79,9 @@ browser.runtime.onMessage.addListener(recieveCanoUrl);
 
 function recieveCanoUrl(message) {
   console.log("received: " + message.url)
-/*
+
   browser.tabs.query({active:true,currentWindow:true}).then(function(tabs){
-    const currentTabUrl = tabs[0].url;
+    const currentTabUrl = message.url ? message.url : tabs[0].url;
     console.log("currentTabUrl" + currentTabUrl);
     const hatenaUrl = "http://b.hatena.ne.jp/api/viewer.popular_bookmarks?url=" + encodeURIComponent(currentTabUrl);
     console.log("hatenaUrl: " + hatenaUrl);
@@ -104,5 +104,4 @@ function recieveCanoUrl(message) {
       });
     });
   });
-*/
 }
