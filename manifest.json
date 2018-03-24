@@ -9,15 +9,15 @@
   },
 
   "permissions": [
-    "alarms",
     "tabs",
     "notifications",
     "<all_urls>"
   ],
 
   "page_action": {
+    "show_matches": ["<all_urls>"],
     "default_icon": "icons/chillout-32.png",
-    "default_title": "Chill out"
+    "default_title": "hatebu"
   },
 
   "background": {
