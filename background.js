@@ -71,7 +71,17 @@ On page action click, navigate the corresponding tab to the cat gifs.
 */
 browser.pageAction.onClicked.addListener(() => {
   browser.tabs.query({active:true,currentWindow:true}).then(function(tabs){
-    const currentTabUrl = tabs[0].url;
+    browser.tabs.executeScript(tabs[0].tabId, {file: "/content_scripts/send_canonical_url.js"});
+  });
+});
+
+browser.runtime.onMessage.addListener(recieveCanoUrl);
+
+function recieveCanoUrl(message) {
+  console.log("received: " + message.url)
+
+  browser.tabs.query({active:true,currentWindow:true}).then(function(tabs){
+    const currentTabUrl = message.url ? message.url : tabs[0].url;
     console.log("currentTabUrl" + currentTabUrl);
     const hatenaUrl = "http://b.hatena.ne.jp/api/viewer.popular_bookmarks?url=" + encodeURIComponent(currentTabUrl);
     console.log("hatenaUrl: " + hatenaUrl);
@@ -94,4 +104,4 @@ browser.pageAction.onClicked.addListener(() => {
       });
     });
   });
-});
+}
