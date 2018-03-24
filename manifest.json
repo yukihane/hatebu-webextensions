@@ -12,7 +12,7 @@
     "alarms",
     "tabs",
     "notifications",
-    "*://b.hatena.ne.jp/api/*"
+    "<all_urls>"
   ],
 
   "page_action": {
@@ -23,5 +23,4 @@
   "background": {
     "scripts": ["background.js"]
   }
-
 }
