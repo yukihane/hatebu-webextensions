@@ -8,12 +8,7 @@
     "48": "icons/chillout-48.png"
   },
 
-  "permissions": [
-    "alarms",
-    "tabs",
-    "notifications",
-    "<all_urls>"
-  ],
+  "permissions": ["alarms", "tabs", "notifications", "<all_urls>"],
 
   "page_action": {
     "default_icon": "icons/chillout-32.png",
