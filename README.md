@@ -13,6 +13,8 @@ Firefox for Androidで, はてなブックマークのコメントページを�
 
 == インストール方法
 
-Android 版 Firefox で次のページを開くとインストールボタンがありますのでそれを押してください。
-
 * https://addons.mozilla.org/ja/firefox/addon/hatena-bookmark-opener/
+
+に記載しています。
+
+現在、 Android では Nightly 版でしか利用できません。
