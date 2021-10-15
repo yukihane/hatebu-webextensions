@@ -5,13 +5,13 @@
   "description": "Hatena bookmark opener for Android Firefox",
   "homepage_url": "https://github.com/yukihane/hatebu-webextensions",
   "icons": {
-    "48": "icons/chillout-48.png"
+    "64": "icon/icon.svg"
   },
 
   "permissions": ["alarms", "tabs", "notifications", "<all_urls>"],
 
   "page_action": {
-    "default_icon": "icons/chillout-32.png",
+    "default_icon": "icon/icon.svg",
     "default_title": "hatebu"
   },
 

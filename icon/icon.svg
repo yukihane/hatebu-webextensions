@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="6.2145903"
+     inkscape:cx="27.354981"
+     inkscape:cy="20.596692"
+     inkscape:window-width="1390"
+     inkscape:window-height="994"
+     inkscape:window-x="323"
+     inkscape:window-y="3"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.3587px;line-height:1.25;font-family:sans-serif;fill:#00a5df;fill-opacity:1;stroke:none;stroke-width:0.283969"
+       x="0.89370322"
+       y="19.150425"
+       id="text2607"
+       transform="scale(1.1992748,0.83383723)"><tspan
+         sodipodi:role="line"
+         id="tspan2605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.2321px;font-family:F66FudeZuisen;-inkscape-font-specification:'F66FudeZuisen, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.283969;fill:#00a5df;fill-opacity:1"
+         x="0.89370322"
+         y="19.150425">h</tspan></text>
+  </g>
+</svg>
